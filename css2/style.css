@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+    .navsetting{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 600;
+    }
+    .navsetting > a{
+        text-decoration: none;
+        margin-left: 20px;
+        color: black;
+    }
+    .navsetting >a:hover{
+        color: blue;
+        /* background-color: antiquewhite; */
+    }
+    .siteBg{
+        height: 700px;
+        width: 85%;
+        background-color: rgb(41, 41, 109);
+        margin-top: 60px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .linkref{
+        font-size: 15px;
+        color: #000000;
+        float: right;
+        padding-right: 121px;
+        margin-top: 7px;
+    }
+    .siteTitle{
+        font-family: Helvetica, sans-serif;
+        font-size:50px;
+        font-weight:800;
+        color: #0b0b75;
+    }
+    .siteInfo{
+        font-size: 30px;
+        color: #000000;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 90px;
+    }
+    
+    /* product div settings */
+    
+    .productsetting{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* flex-direction: column; */
+    }
+    .prodList{
+        position: relative;
+        /* display: inline-block; */
+        width: 45%;
+        padding: 20px;
+        /* margin: 18px;
+        margin-left: 60px; */
+        text-align: center; 
+    }
+    .prodButton{
+        position: absolute;
+        left: 42%;
+        top: 150px;
+        justify-content: center;
+        display: flex;
+        background-color: rgb(57, 55, 173);
+        padding: 1rem;
+        left: 300px;
+        right: 300px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+    .imgBkg{
+        position: relative;
+        width: 90%;
+        height: auto;
+        border-radius: 30px;
+        box-shadow: 1px 1px 5px 1px black;
+    }
+    .prodinfo{
+        justify-content: center;
+        display: flex;
+        position: absolute;
+        font-size: 40px;
+        font-weight: 500px;
+        top: 40px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: #024268;
+        /* top: 25px;
+        left: 45%; */
+    }
+    /*  end of prod div settings */
+    
+    .siteTitle1{
+        font-size: 60px;
+        font-weight: 800px;
+        font-family: Helvetica, sans-serif;
+        color: #0b0b75;
+    }
+    .sitesetting1{
+        height: 850px;
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .prodList1{
+     display: inline-block;
+     position: relative;
+     width: 30%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: auto;
+    }
+    .prodinfo1{
+        position: relative;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .imgBkg1{
+        width: 95%;
+        /* height: auto */
+        border-radius: 30px;
+        box-shadow: 1px 1px 5px 1px black;  
+    }
+    .imgBkg2{
+        width: 95%;
+        /* height: auto; */
+        border-radius: 30px;
+        box-shadow: 1px 1px 5px 1px black;    
+    }
+    .imgBkg3{
+        width: 95%;
+        /* height: auto; */
+        border-radius: 30px;
+        box-shadow: 1px 1px 5px 1px black;
+    }
+
+    /* about setting start */
+    
+    .aboutsetting >p{ 
+        padding: 40px;
+        font: 50px;
+    }
+    /* .contactsetting{
+      font-size: 24px;
+      height: 300px;
+    } */
+    /* contact setting */
+    .contactForm{
+        background-color: rgb(246, 254, 255);
+        padding: 50px;
+    }
+    .contactForm > input[type=text], input[type=email]{
+       width: 60%;
+       font-size: 25px;
+       border-radius: 5px;
+       border: 1px solid #808080;
+       margin-bottom: 25px;
+       padding: 5px;
+    }
+    .contactForm > label{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .contactForm > textarea{
+        width: 60%;
+        resize: none;
+        /* height: 200px; */
+    }
+    /* about setting end */
+
+    .servicesetting{
+        position: relative;
+
+    }
+    .secVideo{
+        position: relative;
+        width: 100%;
+        padding-left: 90px;
+        padding-right: 90px;
+        background-size: cover;
+    }
+    .videoInfo{
+    position: absolute;
+    padding: 90px;
+    font-size: 25px;
+    top: 400px;
+    color: #070707;
+    width: 80%;
+    left: 10%;
+    background-color: hsl(201, 83%, 84%, 30%);
+    }
+    
+    .divSetting{
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+        font-size: 40px;
+    }
+    .divTitle{
+        font-size: 75px;
+        color: #024268;
+        font-family:'Kanit',sans-serif;
+        font-weight: 800;
+
+    }
+    p{
+        font-size: 30px;
+    }
+    ol,ul{
+        text-align: left;
+    }
+    .footersetting{
+        background-color: #def3ff;
+        /* text-align: center; */
+        margin-top: 40px;
+    }
+    .footersetting > ul{
+        text-align: center;
+    }
+    .footIcon > li{
+     text-align: center;
+    }
+    /* @media only screen and (max-width:800){
+        .contactForm > input[type=text], input[type=email]{
+            width: 65%;
+            font-size: 20px;
+            margin-bottom: 20px;
+            padding: 4px;
+         }
+         .videoInfo{
+            padding: 1px;
+            font-size: 15px;
+            top: 250px;
+            left: 11%;
+            width: 78%;
+            }
+            .prodButton{
+                position: absolute;
+                left: 42%;
+                top: 150px;
+                justify-content: center;
+                display: flex;
+                background-color: rgb(57, 55, 173);
+                padding: 1rem;
+                left: 300px;
+                right: 300px;
+                border-radius: 10px;
+                font-size: 15px;
+            }
+    } */
+        
